@@ -25,8 +25,9 @@ jobs:
         - docker push geoscienceaustralia/dea-datakube-config:$CONFIG_TAG
         - docker push geoscienceaustralia/dea-datakube-config:latest
     - stage: validate
-      if: type = api
+      if: (branch = master OR (tag = branch)) AND type = push
       script:
+        - sleep 300
         - ./run_newman_test.sh ows $SERVICE_ENDPOINT
 notifications:
   slack:
