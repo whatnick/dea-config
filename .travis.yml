@@ -24,10 +24,10 @@ jobs:
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         - docker push geoscienceaustralia/dea-datakube-config:$CONFIG_TAG
         - docker push geoscienceaustralia/dea-datakube-config:latest
+        - curl -X POST -d '{"name":"geoscienceaustralia/dea-datakube-config","tag":"$CONFIG_TAG"}' "$CONTAINER_ENDPOINT"
     - stage: validate
-      if: (branch = master OR (tag = branch)) AND type = push
+      if: type = api
       script:
-        - sleep 300
         - ./run_newman_test.sh ows $SERVICE_ENDPOINT
 notifications:
   slack:
