@@ -6819,7 +6819,7 @@ For service status information, see https://status.dea.ga.gov.au""",
                 "always_fetch_bands": ["relative"],
                 "apply_solar_corrections": False,
                 "legend": {
-                    "styles": ["relative_layer"]
+                    "url": "http://gsky.nci.org.au/ows/dea?service=WMS&request=GetLegendGraphic&version=1.3.0&layers=item_relative&styles=relative&srs=EPSG%3A3857"
                 },
                 "wcs_default_bands": ["relative"],
                 "styles": [
@@ -6955,7 +6955,7 @@ For service status information, see https://status.dea.ga.gov.au""",
                 "always_fetch_bands": ["stddev"],
                 "apply_solar_corrections": False,
                 "legend": {
-                    "styles": ["confidence_layer"]
+                    "url": "http://gsky.nci.org.au/ows/dea?service=WMS&request=GetLegendGraphic&version=1.3.0&layers=item_stddev&styles=stddev&srs=EPSG%3A3857"
                 },
                 "wcs_default_bands": ["stddev"],
                 "styles": [
