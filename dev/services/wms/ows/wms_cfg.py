@@ -183,7 +183,7 @@ For service status information, see https://status.dea.ga.gov.au""",
                 # to GetLegendGraphic
                 "legend": {
                     # "url": ""
-                    "styles": ["ndvi", "ndwi"]
+                    "styles": []
                 },
                 "wcs_default_bands": ["red", "green", "blue"],
                 # A function that extracts the "sub-product" id (e.g. path number) from a dataset. Function should return a (small) integer
