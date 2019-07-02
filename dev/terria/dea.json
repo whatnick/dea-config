@@ -1741,6 +1741,15 @@
                   "template": "<img style='width: 100%' src='https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/HAP/Cloncurry/Frames/run{{RUN}}_frame{{PHOTO}}.tif'/></figure> <p/> Download the GeoTIFF products for this polygon here: <p/> <a href='https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/HAP/Cloncurry/Frames/run{{RUN}}_frame{{PHOTO}}.tif'>run{{RUN}}_frame{{PHOTO}}.tif</a><p/>"
                }
             }
+            {
+               "name": "S3 Accessed data ",
+               "type": "csv",
+               "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/data.csv",
+               "tableStyle": {
+                  "scale": 3,
+                  "scaleByValue": true
+                }
+            },
          ]
       },
       {
