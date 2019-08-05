@@ -12,7 +12,7 @@
                "tableStyle": {
                   "scale": 3,
                   "scaleByValue": true,
-                  "colorMap": "green-hsla(0,50%,50%,0.2)"
+                  "colorPalette": "Spectral"
                  }
             },
          ]
