@@ -9,6 +9,7 @@
                "name": "S3 Accessed data ",
                "type": "csv",
                "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/data.csv",
+               "idColumns": ["hits", "bytes", "product", "folder"],
                "tableStyle": {
                   "scale": 3,
                   "scaleByValue": true,
