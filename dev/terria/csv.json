@@ -8,7 +8,7 @@
             {
                "name": "S3 Accessed data ",
                "type": "csv",
-               "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/data.csv",
+               "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/s3-csv/newdata.csv",
                "tableStyle": {
                   "scale": 3,
                   "scaleByValue": true,
