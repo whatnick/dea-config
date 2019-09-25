@@ -22,7 +22,8 @@
                "idColumns": [],
                "tableStyle": {
                   "scale": 5,
-                  "scaleByValue": true,
+                  "dataVariable": "product",
+                  "scaleByValue": false,
                   "colorPalette": "Spectral"
                  }
             },
