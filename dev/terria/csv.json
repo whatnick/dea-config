@@ -21,8 +21,26 @@
                "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/s3-csv/newdata2.csv",
                "idColumns": [],
                "tableStyle": {
-                  "scale": 5,
+                  "scale": 3,
                   "dataVariable": "product",
+                  "scaleByValue": false,
+                  "colorPalette": "Spectral"
+                 },
+                 {
+                  "scale": 3,
+                  "dataVariable": "hits",
+                  "scaleByValue": true,
+                  "colorPalette": "Spectral"
+                 },
+                 {
+                  "scale": 3,
+                  "dataVariable": "bytes/GB",
+                  "scaleByValue": false,
+                  "colorPalette": "Spectral"
+                 },
+                 {
+                  "scale": 3,
+                  "dataVariable": "spatial_id",
                   "scaleByValue": false,
                   "colorPalette": "Spectral"
                  }
