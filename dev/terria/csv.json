@@ -3,7 +3,7 @@
     {
         "name": "CSV testing",
         "type": "group",
-        "isOpen": true,
+        "isOpen": false,
         "items": [
             {
                "name": "S3 Accessed data ",
