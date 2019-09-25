@@ -26,24 +26,18 @@
                   "scaleByValue": false,
                   "colorPalette": "Spectral"
                  },
-                 {
+            },
+            {
+               "name": " Hits",
+               "type": "csv",
+               "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/s3-csv/newdata2.csv",
+               "idColumns": null,
+               "tableStyle": {
                   "scale": 3,
                   "dataVariable": "hits",
                   "scaleByValue": true,
                   "colorPalette": "Spectral"
                  },
-                 {
-                  "scale": 3,
-                  "dataVariable": "bytes/GB",
-                  "scaleByValue": false,
-                  "colorPalette": "Spectral"
-                 },
-                 {
-                  "scale": 3,
-                  "dataVariable": "spatial_id",
-                  "scaleByValue": false,
-                  "colorPalette": "Spectral"
-                 }
             },
          ]
       }
