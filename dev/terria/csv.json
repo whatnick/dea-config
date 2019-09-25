@@ -19,9 +19,8 @@
                "name": " Products Accessed",
                "type": "csv",
                "url": "https://dea-public-data-dev.s3-ap-southeast-2.amazonaws.com/s3-csv/newdata2.csv",
-               "idColumns": ["product"],
+               "idColumns": ["hits", "bytes/GB"],
                "tableStyle": {
-                  "dataVariable": "hits",
                   "scale": 3,
                   "scaleByValue": true,
                   "colorPalette": "Spectral"
